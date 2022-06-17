@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Lexend Deca', sans-serif;
+    src: url(https://fonts.googleapis.com);
+    font-weight: 400;
+}
+body{
+    background-color: white;
+    place-items: center;
+    display: flex;
+    height: 100vh;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+}
+main div{
+    font-family: 'Lexend Deca', sans-serif;
+    place-items: center;
+    padding: 2em;
+    width: fit-content;
+    margin-right: auto;
+    width: 200px;
+    font-size: 15px;
+    font-size-adjust: none;
+    overflow: hidden;
+}
+.one{
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size-adjust: none;
+}
+.two{
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    font-size-adjust: none;
+}
+.three{
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size-adjust: none;
+}
+.pa{
+    padding: .5em;
+    border-style: solid;
+    border-width: 1.8px;
+    border-color: white;
+    border-radius: 20px;
+    float: left;
+    margin-top: 30%;
+    cursor: pointer;
+}
+.pb{
+    padding: .5em;
+    border-style: solid;
+    border-width: 1.8px;
+    border-color: white;
+    border-radius: 20px;
+    float: left;
+    margin-top: 30%;
+    cursor: pointer;
+}
+.pc{
+    padding: .5em;
+    border-style: solid;
+    border-width: 1.8px;
+    border-color: white;
+    border-radius: 20px;
+    float: left;
+    margin-top: 30%;
+    cursor: pointer;
+}
+img{
+    margin-top: 15%;
+    max-width: 100%;
+}
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 15%;
+}
+.p1{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 15%;
+}
+
+@media only screen and (max-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(109, 193, 147);
+        place-items: center;
+        display: flex;
+        height: 100vh;
+    }
+    main{
+        width: 100%;
+        margin: 10%;
+        display: flex;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+    main div{
+        font-family: 'Lexend Deca', sans-serif;
+        place-items: center;
+        padding: 2em;
+        margin-right: auto;
+        width: 80px;
+        font-size: 6px;
+        font-weight: 400;
+        font-size-adjust: none;
+        overflow: hidden;
+        height: 200px;
+    }
+    .one{
+        background-color: hsl(31, 77%, 52%);
+        color: white;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        font-size-adjust: none;
+        font-size: 6px;
+    }
+    .two{
+        background-color: hsl(184, 100%, 22%);
+        color: white;
+        font-size-adjust: none;
+        font-size: 6px;
+    }
+    .three{
+        background-color: hsl(179, 100%, 13%);
+        color: white;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size-adjust: none;
+        font-size: 6px;
+    }
+    .pa{
+        padding: .5em;
+        border-style: solid;
+        border-width: 1.8px;
+        border-color: white;
+        border-radius: 20px;
+        float: left;
+        margin-top: 30%;
+        cursor: pointer;
+    }
+    .pb{
+        padding: .5em;
+        border-style: solid;
+        border-width: 1.8px;
+        border-color: white;
+        border-radius: 20px;
+        float: left;
+        margin-top: 30%;
+        cursor: pointer;
+    }
+    .pc{
+        padding: .5em;
+        border-style: solid;
+        border-width: 1.8px;
+        border-color: white;
+        border-radius: 20px;
+        float: left;
+        margin-top: 15%;
+        cursor: pointer;
+    }
+    img{
+        margin-top: 15%;
+        max-width: 100%;
+        width: 40px;
+    }
+    h1{
+        font-family: 'Lexend Deca', sans-serif;
+        margin-top: 15%;
+    }
+    .p1{
+        font-family: 'Lexend Deca', sans-serif;
+        margin-top: 15%;
+    }
+}
